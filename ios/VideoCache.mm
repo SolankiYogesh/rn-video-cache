@@ -4,12 +4,6 @@
 @implementation VideoCache
 RCT_EXPORT_MODULE()
 
-- (NSNumber *)multiply:(double)a b:(double)b {
-    NSNumber *result = @(a * b);
-
-    return result;
-}
-
 - (NSString *)convert:(NSString *)url { 
     if (!KTVHTTPCache.proxyIsRunning) {
         NSError *error;

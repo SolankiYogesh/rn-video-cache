@@ -15,12 +15,6 @@ class VideoCacheModule(reactContext: ReactApplicationContext) :
     return NAME
   }
 
-  // Example method
-  // See https://reactnative.dev/docs/native-modules-android
-  override fun multiply(a: Double, b: Double): Double {
-    return a * b
-  }
-
   override fun convert(url: String?): String {
     if (this.proxy == null) {
       this.proxy = HttpProxyCacheServer(this.context);

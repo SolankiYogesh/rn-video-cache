@@ -2,7 +2,7 @@
   "name": "react-native-video-cache",
   "version": "0.1.0",
   "description": "Boost performance on online video loading and caching",
-  "source": "./src/index.tsx",
+  "source": "./src/index.ts",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
   "exports": {
