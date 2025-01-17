@@ -1,5 +1,6 @@
-#import <React/RCTBridgeModule.h>
 
-@interface VideoCache : NSObject <RCTBridgeModule>
+#import "generated/RNVideoCacheSpec/RNVideoCacheSpec.h"
+
+@interface VideoCache : NSObject <NativeVideoCacheSpec>
 
 @end
