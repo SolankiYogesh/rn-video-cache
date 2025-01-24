@@ -192,8 +192,7 @@
     },
     "android": {
       "javaPackageName": "com.videocache"
-    },
-    "includesGeneratedCode": true
+    }
   },
   "create-react-native-library": {
     "type": "turbo-module",
