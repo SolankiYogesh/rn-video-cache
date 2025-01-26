@@ -1,5 +1,4 @@
-
-#import "generated/RNVideoCacheSpec/RNVideoCacheSpec.h"
+#import <RNVideoCacheSpec/RNVideoCacheSpec.h>
 
 @interface VideoCache : NSObject <NativeVideoCacheSpec>
 

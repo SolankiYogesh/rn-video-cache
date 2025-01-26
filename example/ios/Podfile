@@ -16,6 +16,7 @@ end
 
 target 'example' do
   config = use_native_modules!
+  pod 'KTVHTTPCache', :git => 'https://github.com/SolankiYogesh/KTVHTTPCache.git', :branch => 'master'
 
   use_react_native!(
     :path => config[:reactNativePath],
