@@ -36,6 +36,12 @@ For iOS, make sure to install CocoaPods if you're working on iOS:
 cd ios && RCT_NEW_ARCH_ENABLED=1 pod install && cd ..
 ```
 
+## Manual Step
+```bash
+  // package will not work without this pod
+  pod 'KTVHTTPCache', :git => 'https://github.com/SolankiYogesh/KTVHTTPCache.git', :branch => 'master'
+```
+
 ## Usage
 
 To use `react-native-video-cache`, simply import the `convert` function and wrap your video source URL with it.
