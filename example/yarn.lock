@@ -2384,7 +2384,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.2.44":
+"@types/react@npm:^18.2.6":
   version: 18.3.18
   resolution: "@types/react@npm:18.3.18"
   dependencies:
@@ -4290,9 +4290,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"example@workspace:example":
+"example@workspace:.":
   version: 0.0.0-use.local
-  resolution: "example@workspace:example"
+  resolution: "example@workspace:."
   dependencies:
     "@babel/core": ^7.25.2
     "@babel/preset-env": ^7.25.3
@@ -4309,6 +4309,7 @@ __metadata:
     prettier: 2.8.8
     react: 18.3.1
     react-native: 0.77.0
+    react-native-video-cache: "git+https://github.com/SolankiYogesh/react-native-video-cache.git#cleaning"
     typescript: 5.0.4
   languageName: unknown
   linkType: soft
@@ -7046,14 +7047,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-video-cache@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-native-video-cache@workspace:."
+"react-native-video-cache@git+https://github.com/SolankiYogesh/react-native-video-cache.git#cleaning":
+  version: 0.2.0
+  resolution: "react-native-video-cache@https://github.com/SolankiYogesh/react-native-video-cache.git#commit=8fdb13120aa0408b23ff7b87c97b1920e7bc0b83"
   peerDependencies:
     react: "*"
     react-native: "*"
-  languageName: unknown
-  linkType: soft
+  checksum: 7747676ac99a73df42f7d03b35084f798f02b213799f6ffe43fbffb538c1c886adaa18a95e6ec32ac3f1bb108069bfe7da4d8b76302ec0676512187323e2cc40
+  languageName: node
+  linkType: hard
 
 "react-native@npm:0.77.0":
   version: 0.77.0
