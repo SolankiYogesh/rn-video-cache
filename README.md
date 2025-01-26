@@ -36,7 +36,7 @@ For iOS, make sure to install CocoaPods if you're working on iOS:
 cd ios && RCT_NEW_ARCH_ENABLED=1 pod install && cd ..
 ```
 
-## Manual Step
+## Manual Step (ios/podfile)
 ```bash
   // package will not work without this pod
   pod 'KTVHTTPCache', :git => 'https://github.com/SolankiYogesh/KTVHTTPCache.git', :branch => 'master'
