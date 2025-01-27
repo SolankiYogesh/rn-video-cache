@@ -81,3 +81,5 @@ lib/
 ios/generated
 android/generated
 .yarn
+example/yarn.lock
+yarn.lock
