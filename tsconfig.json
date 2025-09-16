@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "@sy/rn-video-cache": ["./src/index"]
+      "react-native-video-cache-turbo": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

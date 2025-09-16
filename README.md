@@ -1,9 +1,9 @@
-# 🎥 @sy/rn-video-cache
+# 🎥 react-native-video-cache-turbo
 
 > 🚀 **Turbo-powered Video Caching for React Native**
 > Seamless **online video playback with offline caching** using React Native’s modern **Turbo Modules**.
 
-[![npm version](https://img.shields.io/npm/v/@sy/rn-video-cache?color=blue\&logo=npm)](https://www.npmjs.com/package/@sy/rn-video-cache)
+[![npm version](https://img.shields.io/npm/v/react-native-video-cache-turbo?color=blue&logo=npm)](https://www.npmjs.com/package/react-native-video-cache-turbo)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/SolankiYogesh/rn-video-cache?style=social)](https://github.com/SolankiYogesh/rn-video-cache)
 
@@ -11,21 +11,21 @@
 
 ## ✨ Features
 
-* ⚡ **Turbo Modules Support** → Modern RN architecture for performance
-* 📱 **Cross-Platform** → Works on **iOS & Android**
-* 🔒 **Automatic Caching** → Transparent offline playback
-* 🎯 **Simple API** → Just `convert(url)` and you’re ready
-* ⚙️ **Zero Configuration** → Works out of the box
-* 🔄 **Async + Sync Support** → Use whichever suits your flow
+- ⚡ **Turbo Modules Support** → Modern RN architecture for performance
+- 📱 **Cross-Platform** → Works on **iOS & Android**
+- 🔒 **Automatic Caching** → Transparent offline playback
+- 🎯 **Simple API** → Just `convert(url)` and you’re ready
+- ⚙️ **Zero Configuration** → Works out of the box
+- 🔄 **Async + Sync Support** → Use whichever suits your flow
 
 ---
 
 ## 📦 Installation
 
 ```bash
-npm install @sy/rn-video-cache
+npm install react-native-video-cache-turbo
 # or
-yarn add @sy/rn-video-cache
+yarn add react-native-video-cache-turbo
 ```
 
 ### iOS Setup
@@ -41,18 +41,14 @@ cd ios && pod install && cd ..
 ## 🚀 Quick Start
 
 ```tsx
-import { convert, convertAsync } from '@sy/rn-video-cache';
+import { convert, convertAsync } from 'react-native-video-cache-turbo';
 import Video from 'react-native-video';
 
 const videoUrl = 'https://example.com/video.mp4';
 
 export default function VideoPlayer() {
   return (
-    <Video
-      source={{ uri: convert(videoUrl) }}
-      controls
-      style={{ flex: 1 }}
-    />
+    <Video source={{ uri: convert(videoUrl) }} controls style={{ flex: 1 }} />
   );
 }
 ```
@@ -92,7 +88,7 @@ const cachedUrl = await convertAsync('https://example.com/video.mp4');
 ## 🎯 Usage with `react-native-video`
 
 ```tsx
-import { convert } from '@sy/rn-video-cache';
+import { convert } from 'react-native-video-cache-turbo';
 import Video from 'react-native-video';
 
 export default function App() {
@@ -117,7 +113,7 @@ export default function App() {
 ### Custom Player Integration
 
 ```tsx
-import { convertAsync } from '@sy/rn-video-cache';
+import { convertAsync } from 'react-native-video-cache-turbo';
 
 class CustomVideoPlayer {
   async loadVideo(url: string) {
@@ -148,14 +144,14 @@ try {
 
 This library is built on **React Native Turbo Modules** 💨
 
-* 🚀 **Performance** → Direct native calls, no bridge overhead
-* 🔒 **Type Safety** → Full TypeScript support
-* 🔗 **Automatic Linking** → No manual native setup
+- 🚀 **Performance** → Direct native calls, no bridge overhead
+- 🔒 **Type Safety** → Full TypeScript support
+- 🔗 **Automatic Linking** → No manual native setup
 
 ### Under the Hood
 
-* **iOS** → [KTVHTTPCache](https://github.com/ChangbaDevs/KTVHTTPCache)
-* **Android** → [AndroidVideoCache](https://github.com/danikula/AndroidVideoCache)
+- **iOS** → [KTVHTTPCache](https://github.com/ChangbaDevs/KTVHTTPCache)
+- **Android** → [AndroidVideoCache](https://github.com/danikula/AndroidVideoCache)
 
 ---
 
@@ -170,9 +166,9 @@ This library is built on **React Native Turbo Modules** 💨
 
 ## 🐛 Troubleshooting
 
-* ❌ **Video not playing?** → Ensure internet is available on first play
-* ❌ **iOS build error?** → Run `pod install`
-* ❌ **Caching not working?** → Validate your video URL
+- ❌ **Video not playing?** → Ensure internet is available on first play
+- ❌ **iOS build error?** → Run `pod install`
+- ❌ **Caching not working?** → Validate your video URL
 
 Debugging Example:
 
@@ -204,18 +200,18 @@ MIT © [Yogesh Solanki](https://github.com/SolankiYogesh)
 
 ## 🙏 Acknowledgments
 
-* Original [`react-native-video-cache`](https://github.com) authors
-* [KTVHTTPCache](https://github.com/ChangbaDevs/KTVHTTPCache) (iOS)
-* [AndroidVideoCache](https://github.com/danikula/AndroidVideoCache) (Android)
-* RN Community 💙
+- Original [`react-native-video-cache`](https://github.com) authors
+- [KTVHTTPCache](https://github.com/ChangbaDevs/KTVHTTPCache) (iOS)
+- [AndroidVideoCache](https://github.com/danikula/AndroidVideoCache) (Android)
+- RN Community 💙
 
 ---
 
 ## 📞 Support
 
-* 💬 [Open an Issue](https://github.com/SolankiYogesh/rn-video-cache/issues)
-* 📚 Check [examples](example/)
-* 🔍 Search closed issues before posting
+- 💬 [Open an Issue](https://github.com/SolankiYogesh/rn-video-cache/issues)
+- 📚 Check [examples](example/)
+- 🔍 Search closed issues before posting
 
 ---
 
