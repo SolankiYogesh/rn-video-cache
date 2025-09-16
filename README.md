@@ -200,7 +200,7 @@ MIT © [Yogesh Solanki](https://github.com/SolankiYogesh)
 
 ## 🙏 Acknowledgments
 
-- Original [`react-native-video-cache`](https://github.com) authors
+- Original [`react-native-video-cache`](https://github.com/zhigang1992/react-native-video-cache) authors
 - [KTVHTTPCache](https://github.com/ChangbaDevs/KTVHTTPCache) (iOS)
 - [AndroidVideoCache](https://github.com/danikula/AndroidVideoCache) (Android)
 - RN Community 💙
