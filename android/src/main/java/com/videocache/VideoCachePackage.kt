@@ -24,7 +24,6 @@ class VideoCachePackage : BaseReactPackage() {
         VideoCacheModule.NAME,
         false,  // canOverrideExistingModule
         false,  // needsEagerInit
-        true,  // hasConstants
         false,  // isCxxModule
         true // isTurboModule
       )
